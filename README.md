@@ -26,3 +26,8 @@
 &nbsp;
 
 ---
+
+# Projeto -> <div id="porjeto"></div>
+
+## Ideia do projeto:
+> O projeto consiste em aprender a  criar e manipular testes para os componentes React. Para isso sera utilizado o JEST e a biblioteca nativa de testes do React!
