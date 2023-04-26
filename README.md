@@ -65,6 +65,15 @@
 
 ---
 
+# Problemas e Soluções -> <div id="problemas__solucoes"></div>
+
+## Absolut Import:
+> Para que possa usar o absolut import apartir do src fou colocado dentro do arquivo `tsconfig.json` dentro de `compilerOptions` um parametro `"baseUrl": "src",`.
+
+&nbsp;
+
+---
+
 # Aulas -> <div id="aulas"></div>
 
 ## Aula 1:
