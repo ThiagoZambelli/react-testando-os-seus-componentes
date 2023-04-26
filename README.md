@@ -31,3 +31,32 @@
 
 ## Ideia do projeto:
 > O projeto consiste em aprender a  criar e manipular testes para os componentes React. Para isso sera utilizado o JEST e a biblioteca nativa de testes do React!
+
+&nbsp;
+
+## TDD
+> TEST DRIVEN DEVELOPMENT (Desenvolvimento Orientado a Teste), baseia-se em desenvolver a apalicação se orientando pelo teste.
+
+&nbsp;
+
+## Piramide de Teste
+  >![Alt text](public/assets/piramideDeTeste.png)
+  
+> Unidade > Serviço > Interface
+  - Unidade: ALtavelocidade em desenvolver e testar, pos e feito para se usar em cada unidade do componente alem de ser mais barato.
+  - Serviço: Teste feito com diversoso componentes ao mesmo tempo (um serviço).
+  - Interface: mais caro e mais demorado dos testes. 
+
+&nbsp;
+
+## AAA (Arrange, Act and Assert em inglês)
+> Padrao utilizado para criação de teste:
+~~~JavaScript
+  test('um nome que descreve o que vamos testar', () => {
+    // arrumamos o cenário (por exemplo, renderizar um componente, buscamos componentes)
+
+    // agimos (realizamos clicks, definimos valores)
+
+    // afirmamos o que queremos (onde realizamos as expectativas)
+})
+~~~
