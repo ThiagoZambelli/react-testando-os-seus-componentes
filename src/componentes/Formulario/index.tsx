@@ -1,4 +1,4 @@
-import { useState, useRef} from 'react';
+import { useState, useRef } from 'react';
 import styles from './Formulario.module.scss';
 import { useAdicionaParticipante } from 'state/hooks/useAdicionaParticipante';
 import { useMenssagemDeErro } from 'state/hooks/useMenssagemDeErro';
@@ -20,18 +20,20 @@ export default function Formulario() {
   }
 
   return (
-    <form className={styles.formulario} onSubmit={adicionarNomeALista}>
-      <input
-        ref={inputRef}
-        type='text'
-        placeholder='Insira os nomes dos participantes'
-        value={nome}
-        onChange={event => setNome(event.target.value)}
-      />
-      <button 
-        disabled={!nome}
+    <>
+      <form className={styles.formulario} onSubmit={adicionarNomeALista}>
+        <input
+          ref={inputRef}
+          type='text'
+          placeholder='Insira os nomes dos participantes'
+          value={nome}
+          onChange={event => setNome(event.target.value)}
+        />
+        <button
+          disabled={!nome}
         >Adicionar</button>
-        {errorMenssage && <p role='alert'>{errorMenssage}</p>}
-    </form>
+      </form>
+      {errorMenssage && <p role='alert' className={styles.alert}>{errorMenssage}</p>}
+    </>
   )
 }

@@ -19,6 +19,8 @@
         border: 2px solid $colorBaseDestaque;        
         &::placeholder{
             color: $colorBaseDestaque;
+            font-size: 1.2rem;
+            text-align: center;
         }       
         &:not(:placeholder-shown)+button {
             background-color: $aceptVerdeBase;
@@ -33,4 +35,10 @@
         border: 2px solid $colorBaseDestaque;
         background-color: $colorBaseGrey;
     }
+}
+.alert{
+    font-size: 1.3rem;
+    color:$alertRed;
+    border-bottom: 2px solid $alertGreen;
+    padding: 0 .5em;
 }

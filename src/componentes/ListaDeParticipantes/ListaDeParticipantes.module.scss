@@ -1,0 +1,14 @@
+@import "styles/variaveis";
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    li{
+        color: $colorBaseDestaque;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        padding: .5em .2em;
+    }
+}

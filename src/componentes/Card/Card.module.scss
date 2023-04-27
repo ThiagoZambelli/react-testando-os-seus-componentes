@@ -1,0 +1,15 @@
+@import "styles/variaveis";
+
+.card{
+    background-color: $branco;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 64px 64px 0px 0px;
+    padding: 80px 0;
+    display: flex;
+    flex: 1;
+    margin-top: -32px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
