@@ -1,6 +1,5 @@
 import Card from 'componentes/Card';
-import Formulario from 'componentes/Formulario';
-import ListaDeParticipantes from 'componentes/ListaDeParticipantes';
+import Configuracao from 'pages/Configuracao';
 import PaginaComum from 'pages/PaginaComum';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -14,8 +13,7 @@ function App() {
           <Route path='/' element={<PaginaComum />}>
             <Route index element={
               <Card>
-                <Formulario />
-                <ListaDeParticipantes />
+                <Configuracao />
               </Card>}
             />
           </Route>
