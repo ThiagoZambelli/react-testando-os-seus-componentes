@@ -35,7 +35,16 @@
 &nbsp;
 
 ## TDD
-> TEST DRIVEN DEVELOPMENT (Desenvolvimento Orientado a Teste), baseia-se em desenvolver a apalicação se orientando pelo teste.
+> TEST DRIVEN DEVELOPMENT (Desenvolvimento Orientado a Teste), baseia-se em desenvolver a apalicação se orientando pelo teste. Para isso estamos criando os testes e logo apos, fazemos o desencolvimento dos componentes usando como `regra de negocio` o que foi passado nos testes.
+
+&nbsp;
+
+## Realizar as buscas pelas ´Roles´:
+> Realizar as buscas pelas roles é uma boa prática porque, além de testar a sua aplicação, você garante a sua acessibilidade. As especificações relacionadas à acessibilidade estão definidas na W3C (World Wide Web Consortium) como WAI-ARIA.
+
+> WAI-ARIA quer dizer Accessible Rich Internet Applications (Aplicações Ricas para uma Internet Acessível). O conjunto ARIA oferece a maneira de tornar as aplicações mais acessíveis a uma maior diversidade de pessoas, incluindo quem utiliza tecnologias assistivas, como leitores de telas e lentes de aumento.
+
+> [Aqui você confere uma lista de todas as possíveis roles.](https://www.w3.org/TR/wai-aria-1.1/#role_definitions)
 
 &nbsp;
 
@@ -72,7 +81,18 @@
 
 &nbsp;
 
+## Foco da aplicação:
+> Um do resquesitos de teste era que ao submeter o formulario o foco fosso voltado para o input novamente. Para solucionar isso foi utilisado um hook do react chamado `useRef` que referenciou o input. Dentro do onSubmit foi passdo:
+
+  ~~~JavaScript
+    inputRef.current?.focus();
+  ~~~
+
+&nbsp;
+
 ---
+
+&nbsp;
 
 # Aulas -> <div id="aulas"></div>
 
@@ -83,3 +103,11 @@
 - Analisamos a saída o script de testes;
 - Diferenciamos os tipos testes existentes;
 - Desenvolvemos um componente utilizando TDD.
+
+## Aula 2:
+
+- Instalamos as bibliotecas necessárias para gerir as rotas e o estado;
+- Criamos um hook que encapsula o acesso ao estado global de participantes;
+- Utilizamos o useRef para interagir com o DOM e definir foco a um input;
+- Executamos código assíncrono com o setTimeout;
+- Lidamos com temporizadores nos testes com Jest.
