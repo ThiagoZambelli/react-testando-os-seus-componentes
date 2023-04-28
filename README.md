@@ -81,6 +81,15 @@
 
 &nbsp;
 
+## Randomizando elementos:
+> Foi criada uma lista de nomes para ser sorteado, e como ferramenta de randomização foi intalado a biblioteca `just-shuffle`.
+~~~JavaScript
+ npm i just-shuffle
+~~~
+
+&nbsp;
+
+
 ## Foco da aplicação:
 > Um do resquesitos de teste era que ao submeter o formulario o foco fosso voltado para o input novamente. Para solucionar isso foi utilisado um hook do react chamado `useRef` que referenciou o input. Dentro do onSubmit foi passdo:
 

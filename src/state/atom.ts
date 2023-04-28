@@ -1,4 +1,4 @@
-import {atom} from 'recoil'
+import { atom } from 'recoil'
 
 export const listaParticipantesState = atom<string[]>({
     key: 'listaParticipantesState',
@@ -8,4 +8,9 @@ export const listaParticipantesState = atom<string[]>({
 export const erroState = atom<string>({
     key: 'erroState',
     default: ''
+})
+
+export const resultadoSorteio = atom<Map<string, string>>({
+    key: 'resultadoSorteio',
+    default: new Map()
 })
