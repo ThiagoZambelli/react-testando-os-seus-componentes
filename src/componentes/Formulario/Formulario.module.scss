@@ -20,7 +20,7 @@
         &::placeholder{
             color: $colorBaseDestaque;
             font-size: 1.2rem;
-            text-align: center;
+            text-align: center;            
         }       
         &:not(:placeholder-shown)+button {
             background-color: $aceptVerdeBase;

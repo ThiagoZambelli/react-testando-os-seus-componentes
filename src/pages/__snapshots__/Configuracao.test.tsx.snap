@@ -20,12 +20,23 @@ exports[`a pagina de configuracao Deve ser renderizado corretamente 1`] = `
   <ul
     class="lista"
   />
-  <footer>
+  <footer
+    class="rodape"
+  >
     <button
       disabled=""
     >
+      <img
+        alt="botao de play"
+        src="play_circle.png"
+      />
       Iniciar Brincadeira
     </button>
+    <img
+      alt="Imagem de sacolas"
+      class="rodape__sacolas"
+      src="sacolas.png"
+    />
   </footer>
 </div>
 `;
