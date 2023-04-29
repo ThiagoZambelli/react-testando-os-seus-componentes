@@ -15,12 +15,14 @@ const Rodape = () => {
         sortear();
         navegarPara('/sorteio');
     }
+    const botaoHabilitado = participantes.length < 3;
 
     return (
         <footer className={styles.rodape}>
             <button
                 disabled={participantes.length < 3}
                 onClick={iniciar}
+                className={!botaoHabilitado ? styles.prontoParaIniciar : ''}
             >
                 <img src={botaoPlay} alt="botao de play" />
                 Iniciar Brincadeira

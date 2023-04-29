@@ -21,6 +21,7 @@
         box-shadow: 5px 5px $alertBlack;
         cursor: pointer;
         transition: .1s;
+        opacity: .6;
 
         &:active{
             box-shadow:none;
@@ -35,5 +36,13 @@
     &__sacolas{
         width: 237px;
         height: 183px;
+    }
+}
+
+.rodape .prontoParaIniciar{
+    background-color: $aceptVerdeBase;
+    opacity: 1;
+    &:hover{
+        background-color: $azul;
     }
 }

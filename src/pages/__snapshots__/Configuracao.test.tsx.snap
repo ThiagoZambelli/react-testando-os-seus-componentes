@@ -24,6 +24,7 @@ exports[`a pagina de configuracao Deve ser renderizado corretamente 1`] = `
     class="rodape"
   >
     <button
+      class=""
       disabled=""
     >
       <img

@@ -24,6 +24,7 @@
             border: 2px solid $colorBaseDestaque;
             box-shadow: 4px 4px  $colorBaseDark;
             text-align: center;
+            color: $colorBaseDestaque;
         }
 
         p {
@@ -53,7 +54,7 @@
         padding: 1em .5em 0 .5em;
         margin-bottom: 2em;
         font-size: 30px;
-        border-bottom: 2px solid $aceptVerdeSombra;       
+        border-bottom: 2px solid $colorBaseGrey;       
     }
 
     &__aviao {
