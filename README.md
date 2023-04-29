@@ -140,3 +140,10 @@
 - Testamos se o fluxo da aplicação está sendo executado como o esperado;
 - Refatoramos código para facilitar a escrita de testes;
 - Escrevemos html acessível utilizando o conceito de roles.
+
+
+## Aula 5:
+
+- Subimos o projeto para o github;
+- Configuramos a publicação na Vercel;
+- Rodamos os testes para não publicar versões com testes falhando.
