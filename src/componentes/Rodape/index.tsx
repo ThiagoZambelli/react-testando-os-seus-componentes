@@ -3,13 +3,16 @@ import { useListaDeParticipantes } from "state/hooks/useListaDeParticipantes";
 import sacolas from 'assets/imagens/sacolas.png';
 import botaoPlay from 'assets/imagens/play_circle.png';
 import styles from './Rodape.module.scss';
+import { useSorteador } from "state/hooks/useSorteador";
 
 const Rodape = () => {
     const participantes = useListaDeParticipantes();
 
     const navegarPara = useNavigate();
+    const sortear = useSorteador();
 
     const iniciar = () => {
+        sortear();
         navegarPara('/sorteio');
     }
 

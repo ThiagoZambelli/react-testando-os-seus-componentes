@@ -58,6 +58,12 @@
 
 &nbsp;
 
+## Jest  
+> O Jest é uma biblioteca muito conhecida no mundo dos testes e nos oferece várias expectativas já prontinhas para serem utilizadas.
+  - Sua [documentação se encontra aqui!](https://jestjs.io/pt-BR/docs/expect)
+
+&nbsp;
+
 ## AAA (Arrange, Act and Assert em inglês)
 > Padrao utilizado para criação de teste:
 ~~~JavaScript
@@ -127,3 +133,10 @@
 - Validamos se métodos são chamados pelo componente testado;
 - Lidamos com a navegação do react router dom durante os testes;
 - Realizamos testes de snapshot.
+
+## Aula 4:
+
+- Buscamos elementos <option> pela role;
+- Testamos se o fluxo da aplicação está sendo executado como o esperado;
+- Refatoramos código para facilitar a escrita de testes;
+- Escrevemos html acessível utilizando o conceito de roles.

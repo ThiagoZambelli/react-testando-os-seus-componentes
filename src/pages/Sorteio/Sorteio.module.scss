@@ -1,0 +1,64 @@
+@import "styles/variaveis";
+
+.sorteio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+        padding: 2rem 0 4rem 0;
+        max-width: 80%;
+        margin: 0 auto;
+
+        select {
+            font-size: 20px;
+            padding: 1em 2em;
+            border-radius: 40px;
+            width: 100%;
+            border: 2px solid $colorBaseDestaque;
+            box-shadow: 4px 4px  $colorBaseDark;
+            text-align: center;
+        }
+
+        p {
+            color: $cinza;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            column-gap: 1em;
+            font-size: 20px;
+            padding: 1em 2em;
+            border-radius: 40px;
+            cursor: pointer;
+            background-color: $laranja;
+            color: $branco;
+            box-shadow: 4px 4px  $colorBaseDark;
+        }
+    }
+
+    &__alert {
+        color: $colorBaseDestaque;
+        text-align: center;
+        font-size: 20px;
+        padding: 1em .5em 0 .5em;
+        margin-bottom: 2em;
+        font-size: 30px;
+        border-bottom: 2px solid $aceptVerdeSombra;       
+    }
+
+    &__aviao {
+        width: 150px;
+        height: 136px;
+    }
+
+}
