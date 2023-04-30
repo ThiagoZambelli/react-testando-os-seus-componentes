@@ -1,44 +1,52 @@
 @import "styles/variaveis";
 
-.formulario{
+.formulario {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 4px 4px  $colorBaseDark;
+    box-shadow: 4px 4px $colorBaseDark;
     border-radius: 15px;
     margin: 1rem 2rem;
-    input, button{
+
+    input,
+    button {
         border-color: $colorBaseDestaque;
         color: $colorBaseDestaque;
-    }     
-    input{
+    }
+
+    input {
         font-size: 1.5rem;
-        padding: .2em .5em;
+        padding: .5em 1em;
         border-radius: 15px 0 0 15px;
         flex-grow: 1;
-        border: 2px solid $colorBaseDestaque;        
-        &::placeholder{
+        border: 2px solid $colorBaseDestaque;
+        background-color: $colorBase ;
+
+        &::placeholder {
             color: $colorBaseDestaque;
             font-size: 1.2rem;
-            text-align: center;            
-        }       
+            text-align: center;
+        }
+
         &:not(:placeholder-shown)+button {
             background-color: $aceptVerdeBase;
             color: $aceptBase;
-        }         
+            cursor: pointer;
+        }
     }
-    button{
+
+    button {
         font-size: 1.5rem;
-        padding: .2em .5em;
-        border-radius: 0 15px 15px 0;
-        cursor: pointer;
+        padding: .5em 1em;
+        border-radius: 0 15px 15px 0;        
         border: 2px solid $colorBaseDestaque;
         background-color: $colorBaseGrey;
     }
 }
-.alert{
+
+.alert {
     font-size: 1.3rem;
-    color:$alertRed;
+    color: $alertRed;
     border-bottom: 2px solid $alertGreen;
     padding: 0 .5em;
 }
