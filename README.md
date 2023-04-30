@@ -1,6 +1,20 @@
+<div align="center">
+
 ![Alt text](public/assets/logoLithtleZ.svg)
 
 &nbsp;
+
+---
+
+&nbsp;
+
+
+![Alt text](public/assets/Testes.png)
+
+&nbsp;
+
+---
+</div>
 
 
 <img align="left" width="50%" style="margin-top:-20px" src="public/assets/eu.png">
